@@ -8,7 +8,7 @@ def my_select(collection)
     new_array << array[i]
   end
   i++
-end
+  end
 new_array
 
  

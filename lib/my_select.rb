@@ -2,11 +2,11 @@ def my_select(array)
   i = 0
   new_array = []
 
-  while count < array.size
-    if yield(array[count]) == true
+  while i < array.length
+    if yield(array[i]) == true
       new_array.push(array[i])
     end
-    count+=1
+    i+=1
   end
-  result
+  new_array
 end

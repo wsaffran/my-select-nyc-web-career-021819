@@ -3,10 +3,9 @@ def my_select(collection)
   new_array = [] 
   while i < collection.length 
     if (yield(array[i]))
-      # select.push(array[i])OR 
-      select << array[i] 
+      new_array << collection[i] 
     end 
     i += 1 
   end 
-  select 
+  new_array 
 end 
